@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
+  <suite name="Default suite" duration-ms="7085" started-at="2020-12-04T11:27:30Z" finished-at="2020-12-04T11:27:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-      <class name="ui.LoginTest">
-        <test-method status="PASS" signature="LoginToApplication()[pri:0, instance:ui.LoginTest@548a9f61]" name="LoginToApplication" is-config="true" duration-ms="13" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
+    <test name="Default test" duration-ms="7085" started-at="2020-12-04T11:27:30Z" finished-at="2020-12-04T11:27:37Z">
+      <class name="ui.TitleTest">
+        <test-method status="PASS" signature="verifyTitleTest()[pri:0, instance:ui.TitleTest@1ce92674]" name="verifyTitleTest" duration-ms="7037" started-at="2020-12-04T11:27:30Z" finished-at="2020-12-04T11:27:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginToApplication -->
-        <test-method status="PASS" signature="LogoutTest()[pri:1, instance:ui.LoginTest@548a9f61]" name="LogoutTest" duration-ms="20" started-at="2020-12-04T10:25:44Z" description="This is LogoutTest" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutTest -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:ui.LoginTest@548a9f61]" name="startTest" is-config="true" duration-ms="0" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="stopTest()[pri:0, instance:ui.LoginTest@548a9f61]" name="stopTest" is-config="true" duration-ms="0" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopTest -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:ui.LoginTest@548a9f61]" name="startTest" is-config="true" duration-ms="1" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="LoginTest()[pri:2, instance:ui.LoginTest@548a9f61]" name="LoginTest" duration-ms="4" started-at="2020-12-04T10:25:44Z" description="This is LoginTest" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="stopTest()[pri:0, instance:ui.LoginTest@548a9f61]" name="stopTest" is-config="true" duration-ms="0" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopTest -->
-        <test-method status="PASS" signature="LogoutToApplication()[pri:0, instance:ui.LoginTest@548a9f61]" name="LogoutToApplication" is-config="true" duration-ms="0" started-at="2020-12-04T10:25:44Z" finished-at="2020-12-04T10:25:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutToApplication -->
-      </class> <!-- ui.LoginTest -->
+        </test-method> <!-- verifyTitleTest -->
+      </class> <!-- ui.TitleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
