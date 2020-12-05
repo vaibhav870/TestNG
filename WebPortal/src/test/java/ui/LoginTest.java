@@ -19,7 +19,7 @@ public class LoginTest {
 	}
 	
 	
-	@BeforeTest
+	@BeforeTest(groups="Main")
 	public void LoginToApplication() {
 		System.out.println("Loggin...");
 	}
