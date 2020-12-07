@@ -5,28 +5,21 @@ import org.testng.annotations.Test;
 
 public class DataProviderDemo {
 
-	@Test(dataProvider="dataset")
+	@Test(dataProvider="create",dataProviderClass=DataSets.class)
 	public void DataTest(String user,String pass) {
 		System.out.println(user+"===>"+pass);
 		
 	}
-	
-	@DataProvider
-	public Object[][] dataset() {
-		Object [] [] data= new Object[4][2];
+	@Test(dataProvider="dataset",dataProviderClass=DataSets.class)
+	public void DataTest2(String user,String pass) {
+		System.out.println(user+"===>"+pass);
 		
-		data[0][0]="user1";
-		data[0][1]="pass1";
-		
-		data[1][0]="user2";
-		data[1][1]="pass2";
-		
-		data[2][0]="user3";
-		data[2][1]="pass3";
-	
-		data[3][0]="user4";
-		data[3][1]="pass4";
-		
-		return data;
 	}
+	@Test(dataProvider="create",dataProviderClass=DataSets.class)
+	public void DataTest3(String user,String pass,String test) {
+		System.out.println(user+"===>"+pass+"==?"+test);
+		
+	}
+	
+	
 }
