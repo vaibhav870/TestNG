@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Reading_Data_from_File_Suite">
-              <span class="suite-name border-passed">Reading Data from File Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-ListenerScreenshot_Suite">
+              <span class="suite-name border-failed">ListenerScreenshot Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Reading_Data_from_File_Suite">
-                    <span>C:\Users\vaibhav\git\TestNG\WebPortal\testng5.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ListenerScreenshot_Suite">
+                    <span>C:\Users\vaibhav\git\TestNG\WebPortal\testngListener.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-ListenerScreenshot_Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-ListenerScreenshot_Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-ListenerScreenshot_Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-ListenerScreenshot_Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ListenerScreenshot_Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Reading_Data_from_File_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-ListenerScreenshot_Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Reading_Data_from_File_Suite" class="hide-methods passed suite-Reading_Data_from_File_Suite"> (hide)</a> <!-- hide-methods passed suite-Reading_Data_from_File_Suite -->
-                      <a href="#" panel-name="suite-Reading_Data_from_File_Suite" class="show-methods passed suite-Reading_Data_from_File_Suite"> (show)</a> <!-- show-methods passed suite-Reading_Data_from_File_Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ListenerScreenshot_Suite" class="hide-methods failed suite-ListenerScreenshot_Suite"> (hide)</a> <!-- hide-methods failed suite-ListenerScreenshot_Suite -->
+                      <a href="#" panel-name="suite-ListenerScreenshot_Suite" class="show-methods failed suite-ListenerScreenshot_Suite"> (show)</a> <!-- show-methods failed suite-ListenerScreenshot_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Reading_Data_from_File_Suite">
+                    <div class="method-list-content failed suite-ListenerScreenshot_Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Reading_Data_from_File_Suite" title="ui.LoginTestGeneric" hash-for-method="launchApp(firefox)">launchApp(firefox)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ListenerScreenshot_Suite" title="ui.ListenerDemoTest" hash-for-method="launchTest">launchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Reading_Data_from_File_Suite -->
+                    </div> <!-- method-list-content failed suite-ListenerScreenshot_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ListenerScreenshot_Suite" class="hide-methods skipped suite-ListenerScreenshot_Suite"> (hide)</a> <!-- hide-methods skipped suite-ListenerScreenshot_Suite -->
+                      <a href="#" panel-name="suite-ListenerScreenshot_Suite" class="show-methods skipped suite-ListenerScreenshot_Suite"> (show)</a> <!-- show-methods skipped suite-ListenerScreenshot_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-ListenerScreenshot_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ListenerScreenshot_Suite" title="ui.ListenerDemoTest" hash-for-method="launchTest">launchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ListenerScreenshot_Suite" title="ui.ListenerDemoTest" hash-for-method="launchTest">launchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ListenerScreenshot_Suite" title="ui.ListenerDemoTest" hash-for-method="launchTest">launchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ListenerScreenshot_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,116 +140,197 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Reading_Data_from_File_Suite" class="panel Reading_Data_from_File_Suite">
-          <div class="suite-Reading_Data_from_File_Suite-class-passed">
+        <div panel-name="suite-ListenerScreenshot_Suite" class="panel ListenerScreenshot_Suite">
+          <div class="suite-ListenerScreenshot_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ui.LoginTestGeneric</span>
+              <img src="failed.png"/>
+              <span class="class-name">ui.ListenerDemoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="launchApp(firefox)">
-                  </a> <!-- launchApp(firefox) -->
-                  <span class="method-name">launchApp</span>
-                  <span class="parameters">(firefox)</span>
+                  <a name="launchTest">
+                  </a> <!-- launchTest -->
+                  <span class="method-name">launchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ui.ListenerDemoTest.launchTest(ListenerDemoTest.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Reading_Data_from_File_Suite-class-passed -->
-        </div> <!-- panel Reading_Data_from_File_Suite -->
-        <div panel-name="test-xml-Reading_Data_from_File_Suite" class="panel">
+          </div> <!-- suite-ListenerScreenshot_Suite-class-failed -->
+          <div class="suite-ListenerScreenshot_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ui.ListenerDemoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchTest">
+                  </a> <!-- launchTest -->
+                  <span class="method-name">launchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ui.ListenerDemoTest.launchTest(ListenerDemoTest.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchTest">
+                  </a> <!-- launchTest -->
+                  <span class="method-name">launchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ui.ListenerDemoTest.launchTest(ListenerDemoTest.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchTest">
+                  </a> <!-- launchTest -->
+                  <span class="method-name">launchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at ui.ListenerDemoTest.launchTest(ListenerDemoTest.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ListenerScreenshot_Suite-class-skipped -->
+        </div> <!-- panel ListenerScreenshot_Suite -->
+        <div panel-name="test-xml-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vaibhav\git\TestNG\WebPortal\testng5.xml</span>
+            <span class="header-content">C:\Users\vaibhav\git\TestNG\WebPortal\testngListener.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Reading Data from File Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Reading Data from File&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ListenerScreenshot Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;common.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;common.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ListenerScreenshot&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ui.LoginTestGeneric&quot;/&gt;
+      &lt;class name=&quot;ui.ListenerDemoTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Reading Data from File --&gt;
-&lt;/suite&gt; &lt;!-- Reading Data from File Suite --&gt;
+  &lt;/test&gt; &lt;!-- ListenerScreenshot --&gt;
+&lt;/suite&gt; &lt;!-- ListenerScreenshot Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="testlist-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Reading Data from File Suite</span>
+            <span class="header-content">Tests for ListenerScreenshot Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Reading Data from File (1 class)</span>
+                <span class="test-name">ListenerScreenshot (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="group-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Reading Data from File Suite</span>
+            <span class="header-content">Groups for ListenerScreenshot Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="times-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Reading Data from File Suite</span>
+            <span class="header-content">Times for ListenerScreenshot Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Reading_Data_from_File_Suite');
-function tableData_Reading_Data_from_File_Suite() {
+suiteTableInitFunctions.push('tableData_ListenerScreenshot_Suite');
+function tableData_ListenerScreenshot_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'launchApp')
-data.setCell(0, 2, 'ui.LoginTestGeneric')
-data.setCell(0, 3, 26313);
-window.suiteTableData['Reading_Data_from_File_Suite']= { tableData: data, tableDiv: 'times-div-Reading_Data_from_File_Suite'}
+data.setCell(0, 1, 'launchTest')
+data.setCell(0, 2, 'ui.ListenerDemoTest')
+data.setCell(0, 3, 3744);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchTest')
+data.setCell(1, 2, 'ui.ListenerDemoTest')
+data.setCell(1, 3, 1832);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchTest')
+data.setCell(2, 2, 'ui.ListenerDemoTest')
+data.setCell(2, 3, 1418);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchTest')
+data.setCell(3, 2, 'ui.ListenerDemoTest')
+data.setCell(3, 3, 1225);
+window.suiteTableData['ListenerScreenshot_Suite']= { tableData: data, tableDiv: 'times-div-ListenerScreenshot_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
-              <div id="times-div-Reading_Data_from_File_Suite">
-              </div> <!-- times-div-Reading_Data_from_File_Suite -->
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-ListenerScreenshot_Suite">
+              </div> <!-- times-div-ListenerScreenshot_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="reporter-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Reading Data from File Suite</span>
+            <span class="header-content">Reporter output for ListenerScreenshot Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="ignored-methods-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Reading_Data_from_File_Suite" class="panel">
+        <div panel-name="chronological-ListenerScreenshot_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ui.LoginTestGeneric</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">launchApp(firefox)</span>
+              <div class="chronological-class-name">ui.ListenerDemoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">launchTest</span>
+                <span class="method-start">4558 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchTest</span>
+                <span class="method-start">8318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchTest</span>
+                <span class="method-start">9752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchTest</span>
+                <span class="method-start">11592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">13508 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
